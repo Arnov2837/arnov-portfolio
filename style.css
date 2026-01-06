@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* sehar style */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.colors {
+  background-color: #FD6E0A;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+
+}
+
+/* navigation    */
+
+header {
+  background-color: #FFF8F3;
+  padding-top: 48px;
+
+}
+
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav .menu {
+
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-weight: 20px;
+}
+
+.logo {
+  font: weight 45px;
+  ;
+}
+
+
+
+/* benar designe */
+
+.benar-section {
+  background-color: #FFF8F3;
+  background-image: url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 90px;
+  /* padding-left: 20px; */
+
+
+
+
+}
+
+.benar {
+  width: 80%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 40px 3px 0px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(images/header_bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+}
+
+.benar-left h3 {
+  font-weight: 30px;
+  margin-bottom: 10px;
+}
+
+.benar-left h1 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+
+}
+
+.benar-left p {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.benar-left button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.benar-right img {
+  vertical-align: middle;
+}
