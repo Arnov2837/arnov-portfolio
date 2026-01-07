@@ -207,3 +207,60 @@ p {
 .cart {
   gap: 6px;
 }
+
+/* footer section */
+
+footer {
+  margin-top: 40px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+footer .footer-containar {
+  width: 71%;
+  max-width: 1140px;
+  background-color: #FFF8F3;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 110px;
+}
+
+.footer-containar .socal {
+  max-width: 562px;
+}
+
+.footer-containar h2 {
+  margin-bottom: 20px;
+}
+
+.footer-containar p {
+  color: #474747;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-containar .icon a {
+  margin-right: 24px;
+}
+
+.footer-containar .from .input {
+  width: 400px;
+  padding: 15px 29px;
+  margin-bottom: 20px;
+  /* border: none; */
+  border-radius: 6px;
+
+}
+
+.footer-containar .from textarea {
+  width: 400px;
+  padding: 10px 22px;
+  margin-bottom: 0px;
+  /* border: none; */
+  border-radius: 6px;
+  height: 100px;
+}
+
+/* finis  */
