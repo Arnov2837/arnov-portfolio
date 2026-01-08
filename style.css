@@ -61,7 +61,7 @@ nav .menu {
   background-image: url(images/developer.png);
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: 90px;
+  background-size: 66px;
   /* padding-left: 20px; */
 
 
@@ -107,6 +107,7 @@ nav .menu {
 
 .benar-right img {
   vertical-align: middle;
+
 }
 
 /* about section */
